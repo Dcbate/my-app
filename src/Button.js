@@ -29,7 +29,6 @@ function Button() {
           </button>
           { showResults ? <DIV/> : <DIV1/> }
         </div>
-        
     );
 }
 
