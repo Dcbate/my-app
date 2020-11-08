@@ -10,18 +10,24 @@ function Button() {
 
   const DIV = () => (
     <div>
-      Div is here
+      Dave P Is a Mug
+    </div>
+  )
+
+  const DIV1 = () => (
+    <div>
+      Dave B Is not a Mug
     </div>
   )
     return (
-        <div>
+<div class="centered">
         <button onClick={AppearDiv}>
-          Appear
+          Is Dave P a Mug?
           </button>
           <button onClick={RemoveDiv}>
-          Remove
+          Is Dave B a Mug?
           </button>
-          { showResults ? <DIV/> : null }
+          { showResults ? <DIV/> : <DIV1/> }
         </div>
         
     );
